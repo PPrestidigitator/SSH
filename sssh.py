@@ -7,7 +7,7 @@ import datetime
 
 
 class window(QWidget):
-    selected_partition = ""
+    selected_partition = ''
 
     def __init__(self):
         super().__init__()
@@ -16,7 +16,6 @@ class window(QWidget):
 
     def initUi(self):
 
-        global selected_partition
         self.label = QLabel(self)
         self.label.setPixmap(QPixmap('img.jpg'))
         self.label.setGeometry(0, 0, 50, 250)
@@ -39,7 +38,10 @@ class window(QWidget):
         ls = ["C", 'D', 'E', 'F', 'G', 'H', 'I', 'J']
         partition = QComboBox(self)
         partition.addItems(ls)
-        print(partition.currentText())
+
+        self.lbl = QLabel("wybierz partycje", self)
+
+        partition.activated[str].connect(self.onactive)
 
         qbtn = QPushButton('Quit', self)
         qbtn.clicked.connect(QApplication.instance().quit)
@@ -52,14 +54,12 @@ class window(QWidget):
 
         Create.clicked.connect(self.clickevent)
         self.show()
-        while 0==0:
-            selected_partition = partition.currentText()
-            print("SP", selected_partition)
-            break
-  #  def onActivated(self, text):
-   #    global selected_partition
-   #     self.lbl.setText(text)
-   #     self.lbl.adjustSize()
+
+    def onactive(self, text):
+        global selected_partition
+        self.lbl.setText(text)
+        self.lbl.adjustSize()
+        selected_partition = self.lbl.text()
 
     def closeEvent(self, event):
 

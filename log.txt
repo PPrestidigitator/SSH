@@ -1,0 +1,26 @@
+[16:59:49 28.10.2018]: [Errno 13] Permission denied: 'C:/ssh' 
+[16:59:59 28.10.2018]: [Errno 13] Permission denied: 'C:/ssh' 
+[17:08:59 28.10.2018]: name 'selected_partition' is not defined 
+[17:09:14 28.10.2018]: name 'selected_partition' is not defined 
+[17:13:25 28.10.2018]: name 'selected_partition' is not defined 
+[17:16:22 28.10.2018]: name 'selected_partition' is not defined 
+[17:16:47 28.10.2018]: name 'selected_partition' is not defined 
+[17:17:28 28.10.2018]: name 'selected_partition' is not defined 
+[17:18:38 28.10.2018]: name 'selected_partition' is not defined 
+[17:26:23 28.10.2018]: name 'selected_partition' is not defined 
+[21:33:18 28.10.2018]: name 'selected_partition' is not defined 
+[09:46:41 29.10.2018]: name 'selected_partition' is not defined 
+[15:52:31 01.11.2018]: name 'selected_partition' is not defined 
+[15:53:13 01.11.2018]: name 'selected_partition' is not defined 
+[15:56:24 01.11.2018]: name 'selected_partition' is not defined 
+[15:56:46 01.11.2018]: name 'selected_partition' is not defined 
+[16:05:12 01.11.2018]: name 'selected_partition' is not defined 
+[16:19:13 01.11.2018]: unsupported operand type(s) for +: 'QComboBox' and 'str' 
+[16:20:42 01.11.2018]: unsupported operand type(s) for +: 'QComboBox' and 'str' 
+[16:20:46 01.11.2018]: unsupported operand type(s) for +: 'QComboBox' and 'str' 
+[16:20:57 01.11.2018]: unsupported operand type(s) for +: 'QComboBox' and 'str' 
+[16:21:11 01.11.2018]: unsupported operand type(s) for +: 'QComboBox' and 'str' 
+[17:57:21 01.11.2018]: unsupported operand type(s) for +: 'QComboBox' and 'str' 
+[18:12:22 01.11.2018]: name 'selected_partition' is not defined 
+[18:16:23 01.11.2018]: unsupported operand type(s) for +: 'QLabel' and 'str' 
+[18:16:55 01.11.2018]: unsupported operand type(s) for +: 'NoneType' and 'str' 
